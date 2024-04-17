@@ -27,7 +27,7 @@ def buzz_on():
 
 # Apago el buzzer
 def buzz_off():
-	GPIO.output(PIN_BUZZER, GPIO.LOW)
+	GPIO.output(pin_buzzer, GPIO.LOW)
 
 try:
 	# Creo un bucle a través del while
